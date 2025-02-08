@@ -42,10 +42,13 @@ body {
     .keyboard button.correct {
         background-color: #000000;
         color: #4CAF50;
-        pointer-events: none;
+       
     }
 
     .keyboard button.incorrect {
         background-color: #710a02;
-        pointer-events: none;
+      
     }
+
+}
+
