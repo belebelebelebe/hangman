@@ -91,5 +91,16 @@ body {
     color: black;
     font-weight: bold;
 }
+.refreshbutton {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 200px;
+    background-color: #94ff66;
+    color: black;
+    font-weight: bold;
+}
 }
 
