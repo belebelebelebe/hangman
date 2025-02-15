@@ -1,0 +1,106 @@
+body {
+        font-family: 'Orbitron', sans-serif;
+        text-align: center;
+        background-image: url('https://i.pinimg.com/originals/11/1f/3d/111f3db27bf2c31290888cd777f574da.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: rgba(0, 0, 0, 0.7);
+        margin-top: 50px;
+    }
+
+    .scoreboard {
+        font-size: 50px;
+        margin-bottom: 20px;
+        color: #00FF00;
+      font-weight: bold;
+    }
+
+    .hangmanImage img {
+      width: 500px;
+    }
+
+    .wordDisplay {
+        font-size: 50px;
+        letter-spacing: 2px;
+        margin-bottom: 50px;
+        color: #00FF00;
+    }
+
+    .keyboard button {
+        margin: 5px;
+        padding: 10px 20px;
+        font-size: 20px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        border-radius: 200px;
+        background-color: #94ff66;
+        color: black;
+        font-weight: bold;
+    }
+
+    .keyboard button.correct {
+        background-color: #000000;
+        color: #4CAF50;
+       
+    }
+
+    .keyboard button.incorrect {
+        background-color: #710a02;
+      
+    }
+    .playeroptions {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 200px;
+    background-color: #94ff66;
+    color: black;
+    font-weight: bold;
+    }
+
+.title {
+    color: #94ff66;
+}
+
+.input-section input {
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 5px;
+}
+.header {
+    font-size: 35px;
+    color:  #94ff66;
+    font-family:  'Orbitron', sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+    
+}
+.input-section input[type="submit"] {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 200px;
+    background-color: #94ff66;
+    color: black;
+    font-weight: bold;
+}
+.refreshbutton {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 200px;
+    background-color: #94ff66;
+    color: black;
+    font-weight: bold;
+}
+}
+
